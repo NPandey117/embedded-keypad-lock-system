@@ -107,23 +107,25 @@ The system operates in three main states:
 
 Repository Structure
 
+```
 embedded-keypad-lock-system 
 │ 
 ├── code 
-│ └── keypad_lock.ino 
-
-│ ├── circuit 
-│ └── circuitDiagram.png 
-
-│ ├── images 
-│ └── door_unlocked.png 
-| └── enter_code_prompt.png
-| └── error_code.png
-
-│ ├── simulation 
-│ └── link.txt 
-
-│ └── README.md
+│   └── keypad_lock.ino 
+│
+├── circuit 
+│   └── circuitDiagram.png 
+│
+├── images 
+│   ├── door_unlocked.png 
+│   ├── enter_code_prompt.png
+│   └── error_code.png
+│
+├── simulation 
+│   └── link.txt 
+│
+└── README.md
+```
 
 
 Simulation
